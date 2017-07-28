@@ -6,12 +6,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <h2>Welcome to Styleguide Template</h2>
+        <div className="Container">
+          <div className="Header">
+            <h1>Styleguide Test</h1>
+          </div>
+          <div className="Body">
+            <div className="Color-blue">
+              Blue
+            </div>
+            <div className="Color-green">
+              Green
+            </div>
+          </div>
         </div>
-        <p className="App-intro">
-          Starting a new test for a styleguide template <a>link!</a>
-        </p>
       </div>
     );
   }
