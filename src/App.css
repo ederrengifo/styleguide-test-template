@@ -38,18 +38,20 @@ button {
   padding-top: 40px;
   padding-bottom: 40px; }
 
-.Color-blue {
+.Color-box {
   width: 100px;
   height: 100px;
-  background-color: #41AFE4;
-  font-weight: bold;
   color: #FFF;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  float: left; }
 
-.Color-green {
-  width: 100px;
-  height: 100px;
-  background-color: #17B583;
-  font-weight: bold;
-  color: #FFF;
-  margin-bottom: 10px; }
+.Blue {
+  background-color: #41AFE4; }
+
+.Green {
+  background-color: #17B583; }
+
+.Red {
+  background-color: #f26363; }

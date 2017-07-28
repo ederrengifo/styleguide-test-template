@@ -11,11 +11,17 @@ class App extends Component {
             <h1>Styleguide Test</h1>
           </div>
           <div className="Body">
-            <div className="Color-blue">
-              Blue
+            <div className="Color-box Blue">
+              <b>Blue</b>
+              <div>#41AFE4</div>
             </div>
-            <div className="Color-green">
-              Green
+            <div className="Color-box Green">
+              <b>Green</b>
+              <div>#17B583</div>
+            </div>
+            <div className="Color-box Red">
+              <b>Red</b>
+              <div>#F26363</div>
             </div>
           </div>
         </div>
